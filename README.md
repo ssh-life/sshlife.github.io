@@ -33,7 +33,7 @@ You can switch between `master` and `content` branches via `git checkout`.
 ## Writing a Post
 Switch to the `content` branch with `git checkout content`. You can confirm you've switched with `git log`.
 
-Posts will be under the content directory.
+Posts will be under the content directory. For any other pages, like about, contact us, etc. they should be under pages.
 
 **TODO** -> Figure out directory hiearchy.
 
