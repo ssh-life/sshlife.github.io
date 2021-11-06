@@ -39,10 +39,15 @@ Posts will be under the content directory. For any other pages, like about, cont
 Pelican utilizes the names of directories to populate the menu on the home page. Anything under the pages directory will be a static website and Pelican will utilize the metadata in the Markdown file to populate the menu. In the example below, "secureboot" will be displayed in the main menu and the following articles will be displayed. "pages" will *not* be displayed but the title metadata in about.md will be displayed.
 
 sshlife.github.io/
+
 ├── content
+
 │   ├── secureboot/
+
 │   │   └── article1.md
+
 │   └── pages
+
 │       └── about.md
 
 
